@@ -1,9 +1,49 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "operations": [
+    {
+      "id": 1,
+      "description": "Apertura de cuenta",
+      "amount": 1200,
+      "registerDate": "2022-05-29",
+      "typeOperationId": 1
+    },
+    {
+      "id": 2,
+      "description": "Pago telefono",
+      "amount": 300,
+      "registerDate": "2022-05-30",
+      "typeOperationId": 2
+    },
+    {
+      "description": "Probando gasto",
+      "registerDate": "2022-05-29",
+      "typeOperationId": 2,
+      "amount": 1565,
+      "id": 3
+    },
+    {
+      "description": "Otro gasto mas",
+      "registerDate": "2022-05-29",
+      "typeOperationId": 2,
+      "amount": 458,
+      "id": 4
+    },
+    {
+      "description": "Probando gasto 24 mayo",
+      "registerDate": "2022-05-24",
+      "typeOperationId": 2,
+      "amount": 8000,
+      "id": 5
+    }
+  ],
+  "typeOperation": [
+    {
+      "id": 1,
+      "name": "Ingreso"
+    },
+    {
+      "id": 2,
+      "name": "Gasto"
+    }
+  ]
+}
