@@ -1,14 +1,16 @@
 {
-  "name": "api-final-project",
-  "version": "1.0.0",
+  "name": "bill-income",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+ 
   },
-  "author": "",
+  "author": "Jean Cornelio",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.0"
   }
+
 }

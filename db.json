@@ -1,49 +1,20 @@
 {
-  "operations": [
+  "gastos": [
     {
-      "id": 1,
-      "description": "Apertura de cuenta",
-      "amount": 1200,
-      "registerDate": "2022-05-29",
-      "typeOperationId": 1
-    },
-    {
-      "id": 2,
-      "description": "Pago telefono",
-      "amount": 300,
-      "registerDate": "2022-05-30",
-      "typeOperationId": 2
-    },
-    {
-      "description": "Probando gasto",
-      "registerDate": "2022-05-29",
-      "typeOperationId": 2,
-      "amount": 1565,
-      "id": 3
-    },
-    {
-      "description": "Otro gasto mas",
-      "registerDate": "2022-05-29",
-      "typeOperationId": 2,
-      "amount": 458,
-      "id": 4
-    },
-    {
-      "description": "Probando gasto 24 mayo",
-      "registerDate": "2022-05-24",
-      "typeOperationId": 2,
-      "amount": 8000,
-      "id": 5
+      "id": 1654903353498,
+      "type": "Gasto",
+      "descripcion": "Compra de pantalones",
+      "fecha": "10/06/2022",
+      "monto": -1300
     }
   ],
-  "typeOperation": [
+  "Ingresos": [
     {
-      "id": 1,
-      "name": "Ingreso"
-    },
-    {
-      "id": 2,
-      "name": "Gasto"
+      "id": 1654903397401,
+      "type": "Ingreso",
+      "descripcion": "Pago de trabajo Externo, creacion de app",
+      "fecha": "22/06/2022",
+      "monto": 25000
     }
   ]
 }
