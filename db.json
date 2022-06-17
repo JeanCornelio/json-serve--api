@@ -1,20 +1,5 @@
 {
-  "gastos": [
-    {
-      "id": 1654903353498,
-      "type": "Gasto",
-      "descripcion": "Compra de pantalones",
-      "fecha": "10/06/2022",
-      "monto": -1300
-    }
-  ],
-  "Ingresos": [
-    {
-      "id": 1654903397401,
-      "type": "Ingreso",
-      "descripcion": "Pago de trabajo Externo, creacion de app",
-      "fecha": "22/06/2022",
-      "monto": 25000
-    }
-  ]
+ "data":[
+  
+ ]
 }
